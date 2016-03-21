@@ -1,0 +1,5 @@
+docker-machine:
+  image: yamamotofebc/docker-machine-sakuracloud:latest
+  env_file: .env
+  volumes:
+    - /root/.docker:/root/.docker

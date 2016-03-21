@@ -1,0 +1,81 @@
+#
+#
+#**********************************************************
+# Docker Machine Sakuracloud (author:yamamoto-febc)
+#**********************************************************
+# PLEASE RENAME THIS FILE TO ".env"
+# cp env-sample .env
+#**********************************************************
+#
+#
+
+
+#**********************************************************
+# Basic Settings
+#**********************************************************
+# ACCESS_TOKEN
+#SAKURACLOUD_ACCESS_TOKEN=
+
+# ACCESS_TOKEN_SECRET
+#SAKURACLOUD_ACCESS_TOKEN_SECRET=
+
+# REGION[is1a/is1b/tk1a] / default:is1a
+#SAKURACLOUD_REGION=
+
+#**********************************************************
+# Server Specs
+#**********************************************************
+#memory size(GB) / default:1 
+#SAKURACLOUD_MEMORY_SIZE=
+
+# number of CPU core / default:1
+#SAKURACLOUD_CORE=
+
+# disk plan[HDD(2)/SSD(4)] / default:4
+#SAKURACLOUD_DISK_PLAN=
+
+# disk size(MB)[20480,102400,256000,512000] / default:20480
+#SAKURACLOUD_DISK_SIZE=
+
+# disk connection[virtio/ide] / default:virtio
+#SAKURACLOUD_DISK_CONNECTION=
+
+#**********************************************************
+# Private Network Setting
+#**********************************************************
+# default gateway ip address
+#SAKURACLOUD_GATEWAY=
+
+# connected switch['switch ID']
+#SAKURACLOUD_CONNECTED_SWITCH=
+
+# private ip['xxx.xxx.xxx.xxx']
+#SAKURACLOUD_PRIVATE_IP=
+
+# private ip only flag
+#SAKURACLOUD_PRIVATE_IP_ONLY=
+
+# private ip subnetmask['255.255.255.0']
+#SAKURACLOUD_PRIVATE_IP_SUBNET_MASK=
+
+#**********************************************************
+# Packet Filter
+#**********************************************************
+# packet-filter for eth0(shared)[filter ID or NAME]
+#SAKURACLOUD_PACKET_FILTER=
+
+# packet-filter for eth1(private)[filter ID or NAME]
+#SAKURACLOUD_PRIVATE_PACKET_FILTER=
+
+#**********************************************************
+# Other (flags)
+#**********************************************************
+# @group tag [a/b/c/d]
+#SAKURACLOUD_GROUP=
+
+# @auto-reboot tag flag[true/false]
+#SAKURACLOUD_AUTO_REBOOT=
+
+# ignore @virtio-net-pci tag flag[true/false]
+#SAKURACLOUD_IGNORE_VIRTIO_NET=
+
