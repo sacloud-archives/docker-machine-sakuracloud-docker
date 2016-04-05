@@ -79,3 +79,9 @@
 # ignore @virtio-net-pci tag flag[true/false]
 #SAKURACLOUD_IGNORE_VIRTIO_NET=
 
+# to use exists ssh keypair
+#SAKURACLOUD_SSH_KEY=
+
+# to create DNS record
+#SAKURACLOUD_DNS_ZONE=
+
