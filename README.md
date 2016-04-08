@@ -6,7 +6,7 @@
 
 ## `Dockerfile` links
 
-[`latest`](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.8-p1),[`0.0.8-p1`](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.8-p1)[(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.8-p1/Dockerfile)
+[`latest`](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.10),[`0.0.10`](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.10)[(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.10/Dockerfile)
 
 ## 使い方(docker-composeを使う場合)
 

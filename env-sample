@@ -85,3 +85,6 @@
 # to create DNS record
 #SAKURACLOUD_DNS_ZONE=
 
+# to create or join GSLB
+#SAKURACLOUD_GSLB=
+
