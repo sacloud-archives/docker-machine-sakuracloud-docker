@@ -11,6 +11,9 @@
 - [`0.0.10`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.10/)
 - [`0.0.11`,`latest`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.11/)
 
+**DockerMachine v0.8.0-rc1: Docker API v1.25対応のための暫定版**
+- [`0.0.12-early`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.12-early/)
+
 
 ## 使い方(docker-composeを使う場合)
 
