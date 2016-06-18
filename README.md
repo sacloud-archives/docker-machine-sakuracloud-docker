@@ -59,12 +59,12 @@ Docker Machine + さくらのクラウド用ドライバの詳しい使い方は
 ### 起動コマンド書式
 
 ```bash
-docker run -it --rm yamamotofebc/docker-machine-sakuracloud:latest 実行したいコマンド
+docker run -it --rm sacloud/docker-machine 実行したいコマンド
 ```
 
 ### さくらのクラウド上へサーバ作成の例(サーバ名:sakura-dev)
 ```bash
-docker run -it --rm yamamotofebc/docker-machine-sakuracloud:latest create -d sakuracloud \
+docker run -it --rm sacloud/docker-machine create -d sakuracloud \
                     sakuracloud-access-token=[トークン] sakuracloud-access-token-secret=[シークレット] \
                     sakura-dev
 ```
