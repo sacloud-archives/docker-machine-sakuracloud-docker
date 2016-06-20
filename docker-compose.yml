@@ -1,5 +1,7 @@
 docker-machine:
   image: sacloud/docker-machine:latest
   env_file: .env
+  environment:
+    - MACHINE_STORAGE_PATH=$HOME/.docker/machine
   volumes:
-    - /root/.docker:/root/.docker
+    - $HOME/.docker:$HOME/.docker volumes:

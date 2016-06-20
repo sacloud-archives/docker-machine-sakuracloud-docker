@@ -64,9 +64,11 @@ docker run -it --rm sacloud/docker-machine 実行したいコマンド
 
 ### さくらのクラウド上へサーバ作成の例(サーバ名:sakura-dev)
 ```bash
-docker run -it --rm sacloud/docker-machine create -d sakuracloud \
-                    sakuracloud-access-token=[トークン] sakuracloud-access-token-secret=[シークレット] \
-                    sakura-dev
+docker run -it --rm -e MACHINE_STORAGE_PATH=$HOME/.docker/machine \
+                    -e SAKURACLOUD_ACCESS_TOKEN=[トークン] \
+                    -e SAKURACLOUD_ACCESS_TOKEN_SECRET=[シークレット] \
+                    -v $HOME:/.docker:$HOME/.docker \
+                    sacloud/docker-machine create -d sakuracloud sakura-dev
 ```
 
 
