@@ -10,8 +10,6 @@
 - [`0.0.9`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.9/)
 - [`0.0.10`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.10/)
 - [`0.0.11`,`latest`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.11/)
-
-**DockerMachine v0.8.0-rc1: Docker API v1.25対応のための暫定版**
 - [`0.0.12-early`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.12-early/)
 
 
@@ -67,7 +65,7 @@ docker run -it --rm sacloud/docker-machine 実行したいコマンド
 docker run -it --rm -e MACHINE_STORAGE_PATH=$HOME/.docker/machine \
                     -e SAKURACLOUD_ACCESS_TOKEN=[トークン] \
                     -e SAKURACLOUD_ACCESS_TOKEN_SECRET=[シークレット] \
-                    -v $HOME:/.docker:$HOME/.docker \
+                    -v $HOME/.docker:$HOME/.docker \
                     sacloud/docker-machine create -d sakuracloud sakura-dev
 ```
 
