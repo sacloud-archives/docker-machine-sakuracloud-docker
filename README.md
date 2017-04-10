@@ -6,7 +6,7 @@
 
 ## `Dockerfile` links
 
-- [`0.0.14`,`latest`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.14/)
+- [`0.0.15`,`latest`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.15/)
 
 
 ## 使い方(docker-composeを使う場合)
