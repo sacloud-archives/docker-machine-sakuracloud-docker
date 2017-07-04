@@ -3,6 +3,7 @@
 
 [`Docker Machine`](https://github.com/docker/machine) + [`さくらのクラウド用ドライバ`](https://github.com/yamamoto-febc/docker-machine-sakuracloud)のDockerイメージです。
 
+DockerMachine: v0.12.1  
 
 ## `Dockerfile` links
 
