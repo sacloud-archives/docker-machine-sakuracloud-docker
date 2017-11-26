@@ -3,20 +3,13 @@
 
 [`Docker Machine`](https://github.com/docker/machine) + [`さくらのクラウド用ドライバ`](https://github.com/yamamoto-febc/docker-machine-sakuracloud)のDockerイメージです。
 
-DockerMachine: v0.12.2  
-
-## `Dockerfile` links
-
-- [`0.0.16`,`latest`(Dockerfile)](https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/tree/master/0.0.16/)
-
-
 ## 使い方(docker-composeを使う場合)
 
 #### 1) 以下コマンドで`docker-compose.yml`と環境変数設定ファイルのひな形をダウンロードします。
 
 ```bash
-curl -L https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/raw/master/docker-compose.yml > docker-compose.yml
-curl -L https://github.com/yamamoto-febc/docker-machine-sakuracloud-docker/raw/master/env-sample > .env
+curl -L https://github.com/sacloud/docker-machine-sakuracloud-docker/raw/master/docker-compose.yml > docker-compose.yml
+curl -L https://github.com/sacloud/docker-machine-sakuracloud-docker/raw/master/env-sample > .env
 ```
 
 #### 2) (**オプション**)環境変数設定ファイルを編集します。
@@ -46,7 +39,7 @@ docker-compose run --rm docker-machine create -d sakuracloud sakura-dev
 ```
 
 
-Docker Machine + さくらのクラウド用ドライバの詳しい使い方は[`こちら`](https://github.com/yamamoto-febc/docker-machine-sakuracloud)を参照してください。
+Docker Machine + さくらのクラウド用ドライバの詳しい使い方は[`こちら`](https://github.com/sacloud/docker-machine-sakuracloud)を参照してください。
 
 ## 使い方(Docker Composeなし、dockerコマンドを直接使う場合)
 
